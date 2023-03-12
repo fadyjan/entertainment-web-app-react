@@ -15,7 +15,7 @@ const Grid = () => {
     switch (SelectedCategoryContext.currentSelected) {
       case "Recommended for you":
         result = DataObject.data.filter(
-          (FilmRecord) => FilmRecord.isTrending == true
+          (FilmRecord) => FilmRecord.isTrending == false
         );
    
         break;
