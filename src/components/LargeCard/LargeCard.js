@@ -1,10 +1,11 @@
 import React from "react";
 import PlayBtn from "../PlayBtn/PlayBtn";
 import "./LargeCard.css";
-
+import BookMarkBtn from "../BookMarkBtn/BookMarkBtn";
 const LargeCard = (props) => {
   return (
     <div className="Card">
+      <BookMarkBtn CardType="Large"></BookMarkBtn>
       <img
         alt=""
         className="LargeThumbnails"
